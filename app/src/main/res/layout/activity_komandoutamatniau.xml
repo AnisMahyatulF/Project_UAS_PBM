@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D5A32"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TNI ANGKATAN UDARA"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/lambang_tni_au" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="Komando Utama TNI-AU"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kekuatan TNI-AU saat ini terbagi dalam 2 komando utama (kotama) operasi yaitu Komando Operasi Udara Nasional (Koopsudnas), dan Komando Pemeliharaan Materiil Angkatan Udara (Koharmatau)."        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="1.Komando Operasi Udara Nasional (Koopsudnas)"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:text="Komando Operasi Udara Nasional (Koopsudnas) merupakan komando utama terpenting dalam kekuatan TNI. Kohanudnas berfungsi sebagai mata dan telinga yang mengawasi berbagai pergerakan pesawat udara yang melintasi wilayah Indonesia. Kohanudnas didirikan pada 9 Februari 1962."
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Komando Pemeliharaan Materiil Angkatan Udara (Koharmatau)"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:text="Komando Pemeliharaan Materiil Angkatan Udara atau (Koharmatau) adalah Komando Utama Fungsional TNI Angkatan Udara yang bertugas melaksanakan pemeliharaan dan produksi materiil TNI Angkatan Udara serta pemeliharaan/perbekalan senjata dan amunisi udara. Seiring dengan perjalanan waktu, akhirnya pada tanggal 13 Januari 1994 dikeluarkan Keputusan Kasau Nomor: Kep/01/I/1994 tentang Hari Jadi Koharmatau yang peringatannya dilaksanakan setiap 16 Agustus."
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

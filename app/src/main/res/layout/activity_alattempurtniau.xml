@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D5A32"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TNI ANGKATAN UDARA"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/lambang_tni_au" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="Alat Tempur TNI-AU"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.Pesawat"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Pesawat tempur, Pesawat angkut berat, Pesawat angkut ringan, Pesawat intai strategis, Helikopter, Pesawat latih, Pesawat terbang tanpa awak, Pesawat komando dan pengendalian."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.Senjata"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Pistol/revolver, Pistol isyarat, Pistol mitraliur, Senapan semi otomatis, Senapan otomatis, Senapan mesin ringan/sedang, Senapan mesin berat, Mortir/senjata pelontar granat, Senapan runduk, Kelompok senjata tanpa tolak balik, Senjata kendaraan lapis baja, Penangkis serangan udara dan Senjata anti teror."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.Munisi"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Munisi kaliber besar, Munisi khusus, Bom udara kecil, Bom udara besar, Rudal,  Roket dan External store."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.Kendaraan Bermotor"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Kendaraan taktis, Kendaraan khusus dan Kendaraan administrasi"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.Radar"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.Aviation electronic"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.Komunikasi Alat Bantu Navigasi"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.Alat Perang Elektronika"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Electronic attack, Electronic protection dan Electronic support."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#3D5A32"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TNI ANGKATAN LAUT"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/logo_tni_al" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="TEMPAT TUGAS TNI-AL"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="TTNI-AL dipimpin oleh seorang Kepala Staf Angkatan Laut (KASAL) yang menjadi pemimpin tertinggi di Markas Besar Angkatan Laut (MABESAL). "
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Pangkalan Angkatan Laut (disingkat Lanal) adalah unit pelaksana Angkatan Laut di bawah Lantamal. Lanal membawahi beberapa Pos TNI Angkatan Laut, Pos Pengamatan dan Pos Pengamanan Laut Terpadu (Posal/Posmat/Poskamladu). Lanal dipimpin oleh seorang Komandan yang biasa dipanggil Danlanal (Panglima Pangkalan TNI AL) dengan pangkat Kolonel (Tipe B Lanal), Letnan Kolonel (Tipe C Lanal), dan Mayor (Tipe D Lanal), Lanal membawahi Posal/Posmat yang dipimpin oleh Komandan biasa. disebut Danposal/Danposmat (Panglima Pos TNI/Panglima Pos Pengamat/Panglima Pos Pengamanan Laut Terpadu) dengan pangkat Kapten (Posal Tipe A), Letnan Satu (Pos Tipe B), dan Letnan (Posal Tipe C)."
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="222dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/pangkalan_militer_tni_al" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D5A32"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TNI ANGKATAN DARAT"
+            android:onClick="TNIAngkatanDarat"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/logo_tni_ad" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="Alat Tempur TNI-AD"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.Kendaraan tempur"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Panser dan Tank"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.Senjata"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Infanteri, Kavaleri, Artileri medan, Artileri pertahanan udara, Pelontar granat, Anti kendaraan lapis baja/senjata tanpa tolak balik, Lawan tank dan Khusus."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.Munisi"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Munisi kaliber kecil, Munisi kaliber besar dan Munisi kaliber khusus."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.Kendaraan Bermotor"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Kendaraan taktis, Kendaraan khusus dan Kendaraan administrasi."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.Alat Optik"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Kompas Teropong 7x50, Teropong 6x30, Teropong bidik siang senapan/teropong bidik malam senapa, Night vision googles, Boussolle, Telescope, Periscope dan Alat bidik."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.Alat Peralatan Khusus"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.Pesawat Terbang"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Heli serbu, Heli serang, Heli latih dan Sayap tetap."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.Senjata Pesawat Terbang"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.Munisi Pesawat Terbang"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.Alat Angkut Air"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11.Kapal"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Kapal motor cepat, Kapal motor cepat lain-lain, Landing craft rubber, Motor air, Out board motor dan Pelampung."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

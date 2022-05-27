@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D5A32"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TNI ANGKATAN DARAT"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/logo_tni_ad" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="Komando Utama TNI-AD"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kekuatan TNI-AD saat ini terdiri dari 3 komando utama (kotama) operasi yaitu Komando Cadangan Strategis Angkatan Darat (Kostrad), Komando Pasukan Khusus (Kopassus), dan Komando Daerah Militer (Kodam)."
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.Komando Cadangan Strategis Angkatan Darat (Kostrad)"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Komando Cadangan Strategis Angkatan Darat atau biasa disingkat Kostrad adalah bagian dari Komando Utama tempur yang dimiliki oleh TNI Angkatan Darat. Kostrad memiliki jumlah pasukan yang dirahasiakan dan selalu siap untuk beroperasi atas perintah Panglima TNI kapan saja."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.Komando Pasukan Khusus (Kopassus)"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Komando Pasukan Khusus yang disingkat menjadi Kopassus merupakan bagian dari Komando Utama tempur yang dimiliki oleh TNI Angkatan Darat. Kopassus memiliki kemampuan khusus seperti bergerak cepat di setiap medan, menembak dengan tepat, pengintaian, dan anti teror. Prajurit Kopassus dapat mudah dikenali dengan baret merah yang disandangnya, sehingga pasukan ini sering disebut sebagai pasukan baret merah."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.Komando Daerah Militer (Kodam)"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Komando Daerah Militer (disingkat Kodam) adalah komando utama pembinaan dan operasional kewilayahan TNI Angkatan Darat. Kodam merupakan kompartemen strategis yang memiliki tugas pokok menyelenggarakan pembinaan kesiapan operasional atas segenap komandonya dan operasi pertahanan aktif di darat sesuai kebijakan Panglima TNI."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

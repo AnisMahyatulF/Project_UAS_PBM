@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.informasitni">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InformasiTNI">
+        <activity
+            android:name=".tempattugastniau"
+            android:exported="false" />
+        <activity
+            android:name=".organisasitniau"
+            android:exported="false" />
+        <activity
+            android:name=".alattempurtniau"
+            android:exported="false" />
+        <activity
+            android:name=".komandoutamatniau"
+            android:exported="false" />
+        <activity
+            android:name=".pangkattniau"
+            android:exported="false" />
+        <activity
+            android:name=".organisasitnial"
+            android:exported="false" />
+        <activity
+            android:name=".alattempurtnial"
+            android:exported="false" />
+        <activity
+            android:name=".komandoutamatnial"
+            android:exported="false" />
+        <activity
+            android:name=".pangkattnial"
+            android:exported="false" />
+        <activity
+            android:name=".tempattugastnial"
+            android:exported="false" />
+        <activity
+            android:name=".tempattugastniad"
+            android:exported="false" />
+        <activity
+            android:name=".organisasitniad"
+            android:exported="false" />
+        <activity
+            android:name=".alattempurtniad"
+            android:exported="false" />
+        <activity
+            android:name=".komandoutamatniad"
+            android:exported="false" />
+        <activity
+            android:name=".pangkattniad"
+            android:exported="false" />
+        <activity
+            android:name=".tniangkatanudara"
+            android:exported="false" />
+        <activity
+            android:name=".tniangkatanlaut"
+            android:exported="false" />
+        <activity
+            android:name=".tniangkatandarat"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

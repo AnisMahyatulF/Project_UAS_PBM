@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D5A32"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TNI ANGKATAN UDARA"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/lambang_tni_au" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="Urutan Pangkat TNI-AU"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.Pangkat Kehormatan"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Pangkat kehormatan yang dimiliki oleh Angkatan Udara ialah Marsekal Besar dan lambang pada pangkat tersebut adalah bintang lima dengan warna emas."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.Perwira Tinggi"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Kepangkatan yang ada di Angkatan Udara adalah empat, yaitu Marsekal, Marsekal Madya, Marsekal Muda, dan Marsekal Pertama."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.Perwira Menengah "
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Struktur kepangkatan menengah mempunyai tiga pangkat, yaitu Kolonel, Letnan Kolonel, dan Mayor."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.Perwira Pertama"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Perwira pertama adalah struktur kepangkatan yang berada di bawah perwira menengah. Pada perwira pertama mempunyai tiga pangkat, yaitu Kapten, Letnan Satu, dan Letnan Dua."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.Bintara Tinggi"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Pada struktur kepangkatan Bintara tinggi hanya mempunyai dua pangkat yaitu Pembantu Letnan Satu dan Pembantu Letnan Dua."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.Bintara"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Struktur Kepangkatan bintara mempunyai empat pangkat, yaitu Sersan Mayor, Sersan Kepala, Sersan Satu, dan Sersan Dua."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.Tamtama Kepala"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Kopral Kepala, Kopral Satu, dan Kopral Dua adalah
+        pangkat-pangkat yang ada di struktur kepangkatan
+              tamtama kepala."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.Tamtama "
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Pada struktur kepangkatan ini ada tiga pangkat,
+              yaitu Prajurit Kepala, Prajurit Satu, dan Prajurut Dua."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

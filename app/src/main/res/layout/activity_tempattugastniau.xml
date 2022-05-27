@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#3D5A32"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TNI ANGKATAN UDARA"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/lambang_tni_au" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="TEMPAT TUGAS TNI-AU"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="TNI-AU dipimpin oleh seorang Kepala Staf Angkatan Udara (KASAU) yang menjadi pemimpin tertinggi di Markas Besar Angkatan Udara (MABESAU)."
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="TNI-AU bertugas di Pangkalan Angkatan Udara (Lanud). Lanud adalah kawasan di daratan atau di perairan dengan batas-batas tertentu dalam wilayah suatu negara  yang digunakan untuk kegiatan lepas landas dan pendaratan pesawat udara guna keperluan pertahanan negara oleh angkatan bersenjatanya  khususnya oleh Angkatan Udara. Pangkalan Udara adalah istilah yang umumnya dipergunakan untuk kegiatan penerbangan militer."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="222dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/pangkalan_militer_tni_au" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

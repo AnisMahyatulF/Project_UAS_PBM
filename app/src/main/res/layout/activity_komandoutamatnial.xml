@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D5A32"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="TNI ANGKATAN LAUT"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/logo_tni_al" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="Komando Utama TNI-AL"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kekuatan TNI-AL saat ini terbagi dalam 4 komando utama (kotama) operasi yaitu Komando Armada Republik Indonesia (Koarmada RI), Komando Lintas Laut Militer (Kolinlamil), Pusat Hidro-Oseanografi Angkatan Laut (Pushidrosal), dan Korps Marinir Republik Indonesia (Kormar RI)."
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.Komando Armada Republik Indonesia (Koarmada RI)"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Komando Armada Republik Indonesia (atau disingkat Koarmada RI) adalah kesatuan yang baru dari TNI AL dibentuk dan diresmikan oleh Panglima TNI Jenderal TNI Andika Perkasa pada tanggal 21 Januari 2022."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.Komando Lintas Laut Militer (Kolinlamil)"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Komando Lintas Laut Militer atau disingkat Kolinlamil adalah salah satu Komando Utama TNI Angkatan Laut. Komando ini bermarkas besar di Tanjung Priok, Jakarta Utara. Kolinlamil dibentuk sejak tanggal 1 Juli 1961 dengan nama Djawatan Angkutan Laut Militer (DALMIL)."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.Pusat Hidro-Oseanografi Angkatan Laut (Pushidrosal)"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Pusat Hidro-Oseanografi Angkatan Laut (Pushidrosal) adalah Kotama Pembinaan TNI Angkatan Laut yang berkedudukan langsung di bawah Kepala Staf Angkatan Laut (Kasal)."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.Korps Marinir Republik Indonesia (Kormar RI)"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="Korps Marinir Republik Indonesia (atau disingkat Kormar RI) adalah sebuah unit Tentara Nasional Indonesia yang menyelenggarakan operasi amfibi, pertahanan pantai, pengamanan pulau terluar, pembinaan potensi maritim, serta pembina kekuatan dan kesiapan operasi satuan Marinir."
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

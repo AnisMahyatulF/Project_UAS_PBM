@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_alattempurtniad.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_alattempurtnial.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_alattempurtniau.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_komandoutamatniad.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_komandoutamatnial.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_komandoutamatniau.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_organisasi_tni_ad.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_organisasitniad.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_organisasitnial.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_organisasitniau.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_pangkattniad.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_pangkattnial.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_pangkattniau.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_tempat_tugastniad.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_tempattugastniad.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_tempattugastnial.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_tempattugastniau.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_tniangkatandarat.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_tniangkatanlaut.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/activity_tniangkatanudara.xml" value="0.10643115942028986" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/alat_tempur_tni_ad.xml" value="0.22" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/alat_tempur_tni_al.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/alat_temput_tni_au.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/komando_utama_tni_ad.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/komando_utama_tni_al.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/komando_utama_tni_au.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/struktur_organisasi_tni_ad.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/struktur_organisasi_tni_al.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/struktur_organisasi_tni_au.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/tempat_tugas_tni_ad.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/tempat_tugas_tni_al.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/tempat_tugas_tni_au.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/tni_ad.xml" value="0.25" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/tni_al.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/tni_au.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/urutan_pangkat_tni_ad.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/urutan_pangkat_tni_al.xml" value="0.1" />
+        <entry key="..\:/Semester 6/PBM/InformasiTNI/app/src/main/res/layout/urutan_pangkat_tni_au.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
